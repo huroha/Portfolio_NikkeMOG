@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{2ee1f891-91d9-41f8-b07e-e9b78f85a777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f46c43e0-f7c5-4216-b35b-9419764b252f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Header">
+      <UniqueIdentifier>{0962a49f-8cb5-4ed8-8053-52f138c82d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Engine">
+      <UniqueIdentifier>{b8b1c9ea-2a84-44f8-b2ce-ef0c29e9a1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager">
+      <UniqueIdentifier>{c70c8117-ea9c-4e23-9ce8-75e9f695d2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level">
+      <UniqueIdentifier>{89017e29-0e5e-4f40-89a0-f24389c3ebff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object">
+      <UniqueIdentifier>{95ec53c8-6b72-4351-96f7-c1f845af0d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component">
+      <UniqueIdentifier>{b90c63d1-f46e-44c5-b5b9-5f21a9de1c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset">
+      <UniqueIdentifier>{4d5ca3bb-e650-4012-9440-805067811c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module">
+      <UniqueIdentifier>{6796763e-167f-4109-b308-287949875016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Base">
+      <UniqueIdentifier>{d880bb15-05f6-4dfb-ac38-0d2c4516b7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\01. TimeMgr">
+      <UniqueIdentifier>{51598fdd-576a-4f40-8a6a-255e911ac4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\02. KeyMgr">
+      <UniqueIdentifier>{1719eabb-6905-408c-8540-9abea91d53c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\03. LevelMgr">
+      <UniqueIdentifier>{a96a24ee-5707-47c0-9c14-5151d62a1062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\04. AssetMgr">
+      <UniqueIdentifier>{08443684-2261-42e6-97cc-0db8bfadc199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\05. PathMgr">
+      <UniqueIdentifier>{c2d911c2-cb41-4701-a2fb-4f9e41422a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\06. TaskMgr">
+      <UniqueIdentifier>{67c1bbf4-2c02-4cb9-add1-dea7b63b1a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\07. DebugMgr">
+      <UniqueIdentifier>{2fe92d8f-0d51-4829-90c8-14a5826b9a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\08. CollisionMgr">
+      <UniqueIdentifier>{682323ed-c0a0-441a-ac57-88f03429eef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\09. Camera">
+      <UniqueIdentifier>{e8a0a8b3-74fd-49ca-8c0b-07734c91d27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\10. LogMgr">
+      <UniqueIdentifier>{dfe27f0f-4ccf-4c19-8293-d8a49243aa56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\11. UIMgr">
+      <UniqueIdentifier>{bcb754ac-7997-4be0-8590-10b0ec0f2655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\01. Start">
+      <UniqueIdentifier>{2032c513-db43-4a0e-9165-fcb83c108860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\02. Stage01">
+      <UniqueIdentifier>{0ad48f93-da73-4bb8-9460-c0c4a00db848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\00. Edit">
+      <UniqueIdentifier>{41384cc7-8b6a-47f0-9336-3f94b691113b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\01. Player">
+      <UniqueIdentifier>{e8c8ea8b-0801-49d0-9ecc-71c2fa3686a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Enemy">
+      <UniqueIdentifier>{6f84c1ae-e905-4e12-8fed-4633710c370f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile">
+      <UniqueIdentifier>{54bbf493-1541-41af-9c6b-5a08aad2c8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\04. Force">
+      <UniqueIdentifier>{be4dc0dc-17c8-42f8-81aa-a8c2423f0963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\05. Platform">
+      <UniqueIdentifier>{9d64f4d3-5a30-40a7-9166-aeeb19a8e610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. Tile">
+      <UniqueIdentifier>{7d946af6-4fb1-45ee-8714-f34c873004c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI">
+      <UniqueIdentifier>{c9146bdd-5105-4c88-83b5-9df0cb2c4f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\01. Collider">
+      <UniqueIdentifier>{f3c1de06-7513-4cae-97ef-7de8ca543544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\02. Animator">
+      <UniqueIdentifier>{a3ccb230-2c1e-4371-aec6-ec6e67d9d9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\03. RigidBody">
+      <UniqueIdentifier>{11bf3d42-62da-4dd0-a743-a4b46f7ff679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\04. TileMap">
+      <UniqueIdentifier>{4a71cf52-b5d9-4d6d-86e4-d495611f6752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\05. StateMachine">
+      <UniqueIdentifier>{392c2d87-1d73-43db-985f-0345a55559bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset\01. Texture">
+      <UniqueIdentifier>{5e626a2a-690a-41b9-944e-c162e34cb438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset\02. Sound">
+      <UniqueIdentifier>{2da1b91c-cf0a-46f5-9aeb-6b2bfd927a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\12. SoundMgr">
+      <UniqueIdentifier>{e58ef59d-5bc6-42be-b215-2833c5d15c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\Animation">
+      <UniqueIdentifier>{e60a0c93-079f-4c3c-829a-3d868535fd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State">
+      <UniqueIdentifier>{5e19f6aa-b45d-4c7c-90fa-cd6962c1ccbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\01. BtnUI">
+      <UniqueIdentifier>{e1b9fcc2-b180-440d-9e61-37c2c69e2de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\02. Panel">
+      <UniqueIdentifier>{6394b95e-0de1-4963-a053-8dbb12664002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. EnemyState">
+      <UniqueIdentifier>{503f5247-420b-479a-b646-aeb2237e1ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. EnemyState\AttackState">
+      <UniqueIdentifier>{59e37fc0-729a-49d4-aa6f-b7ab93307da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. EnemyState\IdleState">
+      <UniqueIdentifier>{346c0b22-ed8e-4068-b49f-15c8d217618f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. EnemyState\TraceState">
+      <UniqueIdentifier>{5bbe9c69-2533-405e-a8dc-48afc8b549f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. PlayerState">
+      <UniqueIdentifier>{3453472a-d6ed-44d7-8273-f832765294d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. PlayerState\Idle">
+      <UniqueIdentifier>{b2558976-1c8b-4d88-a735-f195e8cbd968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. PlayerState\Move">
+      <UniqueIdentifier>{701b3da9-9d32-4fe7-a677-4b5954597bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. MAP">
+      <UniqueIdentifier>{b6183500-a3d6-47f1-a579-fe0870ef4c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\09. Cam">
+      <UniqueIdentifier>{41ae2316-eddf-4ffc-a1f7-e73fae275cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Enemy\01. Enemy1">
+      <UniqueIdentifier>{e9938ca8-c1bb-448e-b7f4-91b2c858063d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn">
+      <UniqueIdentifier>{a90a845d-4b90-4bc6-aaa1-5788ff6246e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\11. Item">
+      <UniqueIdentifier>{3667458f-c354-4588-af30-2503a3fb2091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\03. ItemState">
+      <UniqueIdentifier>{ed95a8a4-544a-497e-9813-5c875394ff29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\03. ItemState\Magnet">
+      <UniqueIdentifier>{c8471bd2-d15b-4a81-919e-5f0f8bb885fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\03. ItemState\Idle">
+      <UniqueIdentifier>{9da0e063-39c6-4fef-8b1b-e2f0b12289c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\03. ItemState\Dead">
+      <UniqueIdentifier>{0843d815-c424-4f70-a94b-39c3413d0e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\12. EnemySpawn">
+      <UniqueIdentifier>{d91504d2-8edd-4494-be06-828120e425cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager\13. PauseMgr">
+      <UniqueIdentifier>{52d4535d-b723-4db6-9326-c2d456cbe791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\13. ItemSpawn">
+      <UniqueIdentifier>{acb1bdb5-6fbc-4de3-9bb6-ad84b8ce1715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\03. Level_UI">
+      <UniqueIdentifier>{8559e1b0-7f0e-447d-82a6-8f0cdca19408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\04. Gauge_UI">
+      <UniqueIdentifier>{690f5d56-994e-4d9e-8fe9-d6eff28e4888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\04. Gauge_UI\01. HP_bar">
+      <UniqueIdentifier>{5436afce-1d03-4888-8be8-70dd7a25d2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI">
+      <UniqueIdentifier>{24aa13a9-7f84-4438-ad09-088042404b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\02. Panel\01. Panel_tex">
+      <UniqueIdentifier>{b9e8b32c-7562-4581-94d7-e712e4e5c669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\02. Panel\02. Panel_Anim">
+      <UniqueIdentifier>{a888bdab-5622-4e00-a7dd-2de37567a831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat">
+      <UniqueIdentifier>{02703a5c-f5ae-471f-b09c-fcafc0f8aa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_MaxHP">
+      <UniqueIdentifier>{c6352f45-9fe7-4479-be37-41f5148f2d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Atk">
+      <UniqueIdentifier>{55ef8a2e-7348-4c74-aedc-23401eedb33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Def">
+      <UniqueIdentifier>{14059dee-6388-41ff-8d5f-03523292ebe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Spd">
+      <UniqueIdentifier>{373c88cf-493f-468f-b041-48b6a366bc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Header\UI header">
+      <UniqueIdentifier>{1c142779-cb65-4249-acc1-750243acc0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Skill">
+      <UniqueIdentifier>{f240733f-e3ae-4b83-b849-fe2f74d27a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\06. Passive_UI">
+      <UniqueIdentifier>{9bc05ae5-5056-4ae6-b2d6-7f934ef6ccb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\00. GuideMissile">
+      <UniqueIdentifier>{0298457a-7715-4d90-806d-938d1fd32a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\05. Gren_Missile">
+      <UniqueIdentifier>{1f1c42ee-add4-4512-8f8d-4bfd0a126bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\04. Lapunzel_Missile">
+      <UniqueIdentifier>{98ace7b2-cd47-4b76-85dc-9afb992ff203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\03. Snow_Missile">
+      <UniqueIdentifier>{434d17b4-4cb3-4593-a80e-b6c5c7ef4f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\02. Modernia_Missile">
+      <UniqueIdentifier>{ad970619-2d81-4a97-9086-8fc628d6c65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\01. Spawn_Crown">
+      <UniqueIdentifier>{50a2b68f-50da-4df5-9246-342e96bb5b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\02. Spawn_Modernia">
+      <UniqueIdentifier>{e2082188-3267-4314-8555-fa9d30d436a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\03. Spawn_SnowWhite">
+      <UniqueIdentifier>{2ce9e05a-136c-40a2-b40b-36808cc3b1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\04. Spawn_Lapunzel">
+      <UniqueIdentifier>{bf1bf993-47a6-4bb3-9b1c-342ad3284271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\05. Spawn_Gren">
+      <UniqueIdentifier>{f8ac8eb1-303a-4797-9ee0-ef5b2be531cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\06. Killo_Missile">
+      <UniqueIdentifier>{9177fb70-d8ae-4ff5-95bc-8600cdc90b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\07. Weapon_UI">
+      <UniqueIdentifier>{ff330e77-d1cb-4c83-b262-9d8452211737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Enemy\02. Boss">
+      <UniqueIdentifier>{9e23837d-ce89-40ac-a149-21a86ae98049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState">
+      <UniqueIdentifier>{f8ea93f9-eb88-4e09-9882-9e8740343775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\01. Trace_nomal">
+      <UniqueIdentifier>{aa3d7060-2aff-4d0d-b2c6-bff957cd4261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\02. Trace_Fast">
+      <UniqueIdentifier>{1b12d994-a33e-474d-acbf-4f62e0746a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\03. Attack_1">
+      <UniqueIdentifier>{ba8cf7e0-fe41-4caf-ad37-44bba7786d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\04. Attack_2">
+      <UniqueIdentifier>{820dd294-532a-4e09-b4cb-9043d5599f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\05. Attack_Trace">
+      <UniqueIdentifier>{5e94e12f-66a9-40aa-97b4-e7b1adcd0f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\14. BossSpawn">
+      <UniqueIdentifier>{58287c86-1420-4f5f-a987-be57f7161569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\07. Spawn_Indi">
+      <UniqueIdentifier>{110a9f6d-e3e3-443f-a5e1-b3116f1cf495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\10. MissileSpawn\06. Spawn_Killo">
+      <UniqueIdentifier>{bef14d83-d371-4a7c-a010-eccccbd8bf63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\07. Indi_Missile">
+      <UniqueIdentifier>{3cd0b8fc-f522-44ba-b9ba-40167213615a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\07. Indi_Missile\01. Basic">
+      <UniqueIdentifier>{ee0c79d6-e068-4524-8f55-26b6f2707e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\07. Indi_Missile\02. Thunder">
+      <UniqueIdentifier>{edf0a964-3e67-4b8c-a88b-2f7b7e2b2efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\07. Indi_Missile\03 DIg">
+      <UniqueIdentifier>{51a7e352-0585-4257-90dc-3e5f1f4c429b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Missile\07. Indi_Missile\04. Trace">
+      <UniqueIdentifier>{beee6992-a9c7-4127-b3a6-1beb10c8e4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\04. BossState\06. Attack_Thunder">
+      <UniqueIdentifier>{e965e333-d712-48b3-b6b6-553a133f2700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Enemy\02. Boss\01. Tail">
+      <UniqueIdentifier>{56a6a058-a482-4c55-9d64-5b927f005e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\15. EffectSpawn">
+      <UniqueIdentifier>{1520b3aa-5563-457e-91c4-3a1d4b590c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\16. Effect">
+      <UniqueIdentifier>{1ea138b4-08f6-49a4-a3d8-850263d21e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\02. Panel\02. Panel_Anim\01. Lobby_obj">
+      <UniqueIdentifier>{1ce37525-54fc-43ba-b8d8-bd51fe85abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\01. BtnUI\01. BtnTex">
+      <UniqueIdentifier>{91437fbe-f5c1-45ee-9d4e-f81481e56785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\01. BtnUI\02. BtnBust">
+      <UniqueIdentifier>{3ca56d9d-c250-427a-b4c8-5010a5d14d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. UI\02. Panel\03. DarkFilter">
+      <UniqueIdentifier>{a5481f3d-feb8-4e15-aa6d-8b822f39dcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\17. CopyRight">
+      <UniqueIdentifier>{1db41be6-9140-4601-9b2c-33d03a893f9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Portfolio_MOG.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\03. Manager\01. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\03. Manager\02. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogMgr.h">
+      <Filter>Game\03. Manager\10. LogMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelMgr.h">
+      <Filter>Game\03. Manager\03. LevelMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CAssetMgr.h">
+      <Filter>Game\03. Manager\04. AssetMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\03. Manager\05. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskMgr.h">
+      <Filter>Game\03. Manager\06. TaskMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebugMgr.h">
+      <Filter>Game\03. Manager\07. DebugMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\03. Manager\08. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\03. Manager\09. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\03. Manager\11. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel.h">
+      <Filter>Game\04. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Editor.h">
+      <Filter>Game\04. Level\00. Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Start.h">
+      <Filter>Game\04. Level\01. Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>Game\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\05. Object\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>Game\05. Object\02. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Game\05. Object\03. Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CGuidedMissile.h">
+      <Filter>Game\05. Object\03. Missile\00. GuideMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="CForce.h">
+      <Filter>Game\05. Object\04. Force</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Game\05. Object\05. Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Game\05. Object\06. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\05. Object\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\06. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\06. Component\01. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\06. Component\02. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Game\06. Component\03. RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMap.h">
+      <Filter>Game\06. Component\04. TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMachine.h">
+      <Filter>Game\06. Component\05. StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="CAsset.h">
+      <Filter>Game\07. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\07. Asset\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\07. Asset\02. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\03. Manager\12. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Game\08. Module\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnim.h">
+      <Filter>Game\08. Module\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectObject.h">
+      <Filter>Game\08. Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnUI.h">
+      <Filter>Game\05. Object\07. UI\01. BtnUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanel.h">
+      <Filter>Game\05. Object\07. UI\02. Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="CIdleState.h">
+      <Filter>Game\08. Module\State\01. EnemyState\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackState.h">
+      <Filter>Game\08. Module\State\01. EnemyState\AttackState</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraceState.h">
+      <Filter>Game\08. Module\State\01. EnemyState\TraceState</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer_IDLE.h">
+      <Filter>Game\08. Module\State\02. PlayerState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer_MOVE.h">
+      <Filter>Game\08. Module\State\02. PlayerState\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Game\05. Object\08. MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="CCam.h">
+      <Filter>Game\05. Object\09. Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanel_Tex.h">
+      <Filter>Game\05. Object\07. UI\02. Panel\01. Panel_tex</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy1.h">
+      <Filter>Game\05. Object\02. Enemy\01. Enemy1</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_UI.h">
+      <Filter>Game\05. Object\07. UI\03. Level_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Game\05. Object\11. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CGauge.h">
+      <Filter>Game\05. Object\07. UI\04. Gauge_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem_Magnet.h">
+      <Filter>Game\08. Module\State\03. ItemState\Magnet</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem_Idle.h">
+      <Filter>Game\08. Module\State\03. ItemState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem_Dead.h">
+      <Filter>Game\08. Module\State\03. ItemState\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemySpawner.h">
+      <Filter>Game\05. Object\12. EnemySpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseMgr.h">
+      <Filter>Game\03. Manager\13. PauseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CHP_bar.h">
+      <Filter>Game\05. Object\07. UI\04. Gauge_UI\01. HP_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_UI.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSpawner.h">
+      <Filter>Game\05. Object\13. ItemSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileSpawner.h">
+      <Filter>Game\05. Object\10. MissileSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnUI_Tex.h">
+      <Filter>Game\05. Object\07. UI\01. BtnUI\01. BtnTex</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanel_Anim.h">
+      <Filter>Game\05. Object\07. UI\02. Panel\02. Panel_Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Header.h">
+      <Filter>Game\01. Header\UI header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_MaxHP.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_MaxHP</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_Atk.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Atk</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_Def.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_Spd.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Spd</Filter>
+    </ClInclude>
+    <ClInclude Include="CCount_Skill.h">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CPassive_UI.h">
+      <Filter>Game\05. Object\07. UI\06. Passive_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Crown.h">
+      <Filter>Game\05. Object\10. MissileSpawn\01. Spawn_Crown</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Modernia.h">
+      <Filter>Game\05. Object\10. MissileSpawn\02. Spawn_Modernia</Filter>
+    </ClInclude>
+    <ClInclude Include="CModernia.h">
+      <Filter>Game\05. Object\03. Missile\02. Modernia_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Snow.h">
+      <Filter>Game\05. Object\10. MissileSpawn\03. Spawn_SnowWhite</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnow.h">
+      <Filter>Game\05. Object\03. Missile\03. Snow_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Lapun.h">
+      <Filter>Game\05. Object\10. MissileSpawn\04. Spawn_Lapunzel</Filter>
+    </ClInclude>
+    <ClInclude Include="CLapunzel.h">
+      <Filter>Game\05. Object\03. Missile\04. Lapunzel_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Gren.h">
+      <Filter>Game\05. Object\10. MissileSpawn\05. Spawn_Gren</Filter>
+    </ClInclude>
+    <ClInclude Include="CGren.h">
+      <Filter>Game\05. Object\03. Missile\05. Gren_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Killo.h">
+      <Filter>Game\05. Object\10. MissileSpawn\06. Spawn_Killo</Filter>
+    </ClInclude>
+    <ClInclude Include="CKillo.h">
+      <Filter>Game\05. Object\03. Missile\06. Killo_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon_UI.h">
+      <Filter>Game\05. Object\07. UI\07. Weapon_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>Game\05. Object\02. Enemy\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace_Normal.h">
+      <Filter>Game\08. Module\State\04. BossState\01. Trace_nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossSpawner.h">
+      <Filter>Game\05. Object\14. BossSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace_Fast.h">
+      <Filter>Game\08. Module\State\04. BossState\02. Trace_Fast</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner_Indi.h">
+      <Filter>Game\05. Object\10. MissileSpawn\07. Spawn_Indi</Filter>
+    </ClInclude>
+    <ClInclude Include="CDig_Missile.h">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\03 DIg</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasic_Missile.h">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\01. Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttack_Basic1.h">
+      <Filter>Game\08. Module\State\04. BossState\03. Attack_1</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttack_Basic2.h">
+      <Filter>Game\08. Module\State\04. BossState\04. Attack_2</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace_Missile.h">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\04. Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttack_Trace.h">
+      <Filter>Game\08. Module\State\04. BossState\05. Attack_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttack_Thunder.h">
+      <Filter>Game\08. Module\State\04. BossState\06. Attack_Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="CThunder_Missile.h">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\02. Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="CTail.h">
+      <Filter>Game\05. Object\02. Enemy\02. Boss\01. Tail</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectSpawner.h">
+      <Filter>Game\05. Object\15. EffectSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect_Dead.h">
+      <Filter>Game\05. Object\16. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CLobby_Anim.h">
+      <Filter>Game\05. Object\07. UI\02. Panel\02. Panel_Anim\01. Lobby_obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnBust_UI.h">
+      <Filter>Game\05. Object\07. UI\01. BtnUI\02. BtnBust</Filter>
+    </ClInclude>
+    <ClInclude Include="CDarkUI.h">
+      <Filter>Game\05. Object\07. UI\02. Panel\03. DarkFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CCR.h">
+      <Filter>Game\05. Object\17. CopyRight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Portfolio_MOG.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Portfolio_MOG.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CBase.cpp">
+      <Filter>Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\03. Manager\01. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\03. Manager\02. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogMgr.cpp">
+      <Filter>Game\03. Manager\10. LogMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelMgr.cpp">
+      <Filter>Game\03. Manager\03. LevelMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CAssetMgr.cpp">
+      <Filter>Game\03. Manager\04. AssetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\03. Manager\05. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskMgr.cpp">
+      <Filter>Game\03. Manager\06. TaskMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebugMgr.cpp">
+      <Filter>Game\03. Manager\07. DebugMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\03. Manager\08. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\03. Manager\09. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\03. Manager\11. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel.cpp">
+      <Filter>Game\04. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Editor.cpp">
+      <Filter>Game\04. Level\00. Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Start.cpp">
+      <Filter>Game\04. Level\01. Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>Game\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\05. Object\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>Game\05. Object\02. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Game\05. Object\03. Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CGuidedMissile.cpp">
+      <Filter>Game\05. Object\03. Missile\00. GuideMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="CForce.cpp">
+      <Filter>Game\05. Object\04. Force</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Game\05. Object\05. Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Game\05. Object\06. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\05. Object\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\06. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\06. Component\01. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\06. Component\02. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Game\06. Component\03. RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMap.cpp">
+      <Filter>Game\06. Component\04. TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMachine.cpp">
+      <Filter>Game\06. Component\05. StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CAsset.cpp">
+      <Filter>Game\07. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\07. Asset\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\07. Asset\02. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\03. Manager\12. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Game\08. Module\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnim.cpp">
+      <Filter>Game\08. Module\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectObject.cpp">
+      <Filter>Game\08. Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnUI.cpp">
+      <Filter>Game\05. Object\07. UI\01. BtnUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanel.cpp">
+      <Filter>Game\05. Object\07. UI\02. Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="CIdleState.cpp">
+      <Filter>Game\08. Module\State\01. EnemyState\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackState.cpp">
+      <Filter>Game\08. Module\State\01. EnemyState\AttackState</Filter>
+    </ClCompile>
+    <ClCompile Include="CTraceState.cpp">
+      <Filter>Game\08. Module\State\01. EnemyState\TraceState</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer_IDLE.cpp">
+      <Filter>Game\08. Module\State\02. PlayerState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer_MOVE.cpp">
+      <Filter>Game\08. Module\State\02. PlayerState\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Game\05. Object\08. MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="CCam.cpp">
+      <Filter>Game\05. Object\09. Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanel_Tex.cpp">
+      <Filter>Game\05. Object\07. UI\02. Panel\01. Panel_tex</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy1.cpp">
+      <Filter>Game\05. Object\02. Enemy\01. Enemy1</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_UI.cpp">
+      <Filter>Game\05. Object\07. UI\03. Level_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CGauge.cpp">
+      <Filter>Game\05. Object\07. UI\04. Gauge_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem_Magnet.cpp">
+      <Filter>Game\08. Module\State\03. ItemState\Magnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem_Idle.cpp">
+      <Filter>Game\08. Module\State\03. ItemState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem_Dead.cpp">
+      <Filter>Game\08. Module\State\03. ItemState\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemySpawner.cpp">
+      <Filter>Game\05. Object\12. EnemySpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseMgr.cpp">
+      <Filter>Game\03. Manager\13. PauseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CHP_bar.cpp">
+      <Filter>Game\05. Object\07. UI\04. Gauge_UI\01. HP_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_UI.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSpawner.cpp">
+      <Filter>Game\05. Object\13. ItemSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileSpawner.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnUI_Tex.cpp">
+      <Filter>Game\05. Object\07. UI\01. BtnUI\01. BtnTex</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanel_Anim.cpp">
+      <Filter>Game\05. Object\07. UI\02. Panel\02. Panel_Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_MaxHP.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_MaxHP</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_Atk.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Atk</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_Def.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Def</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_Spd.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Spd</Filter>
+    </ClCompile>
+    <ClCompile Include="CCount_Skill.cpp">
+      <Filter>Game\05. Object\07. UI\05. Count_UI\Count_stat\Count_Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CPassive_UI.cpp">
+      <Filter>Game\05. Object\07. UI\06. Passive_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Crown.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\01. Spawn_Crown</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Modernia.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\02. Spawn_Modernia</Filter>
+    </ClCompile>
+    <ClCompile Include="CModernia.cpp">
+      <Filter>Game\05. Object\03. Missile\02. Modernia_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Snow.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\03. Spawn_SnowWhite</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnow.cpp">
+      <Filter>Game\05. Object\03. Missile\03. Snow_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Lapun.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\04. Spawn_Lapunzel</Filter>
+    </ClCompile>
+    <ClCompile Include="CLapunzel.cpp">
+      <Filter>Game\05. Object\03. Missile\04. Lapunzel_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Game\05. Object\11. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Gren.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\05. Spawn_Gren</Filter>
+    </ClCompile>
+    <ClCompile Include="CGren.cpp">
+      <Filter>Game\05. Object\03. Missile\05. Gren_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Killo.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\06. Spawn_Killo</Filter>
+    </ClCompile>
+    <ClCompile Include="CKillo.cpp">
+      <Filter>Game\05. Object\03. Missile\06. Killo_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon_UI.cpp">
+      <Filter>Game\05. Object\07. UI\07. Weapon_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrace_Normal.cpp">
+      <Filter>Game\08. Module\State\04. BossState\01. Trace_nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossSpawner.cpp">
+      <Filter>Game\05. Object\14. BossSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrace_Fast.cpp">
+      <Filter>Game\08. Module\State\04. BossState\02. Trace_Fast</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner_Indi.cpp">
+      <Filter>Game\05. Object\10. MissileSpawn\07. Spawn_Indi</Filter>
+    </ClCompile>
+    <ClCompile Include="CDig_Missile.cpp">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\03 DIg</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasic_Missile.cpp">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\01. Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttack_Basic1.cpp">
+      <Filter>Game\08. Module\State\04. BossState\03. Attack_1</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttack_Basic2.cpp">
+      <Filter>Game\08. Module\State\04. BossState\04. Attack_2</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrace_Missile.cpp">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\04. Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttack_Trace.cpp">
+      <Filter>Game\08. Module\State\04. BossState\05. Attack_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttack_Thunder.cpp">
+      <Filter>Game\08. Module\State\04. BossState\06. Attack_Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="CThunder_Missile.cpp">
+      <Filter>Game\05. Object\03. Missile\07. Indi_Missile\02. Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="CTail.cpp">
+      <Filter>Game\05. Object\02. Enemy\02. Boss\01. Tail</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>Game\05. Object\02. Enemy\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectSpawner.cpp">
+      <Filter>Game\05. Object\15. EffectSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect_Dead.cpp">
+      <Filter>Game\05. Object\16. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CLobby_Anim.cpp">
+      <Filter>Game\05. Object\07. UI\02. Panel\02. Panel_Anim\01. Lobby_obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnBust_UI.cpp">
+      <Filter>Game\05. Object\07. UI\01. BtnUI\02. BtnBust</Filter>
+    </ClCompile>
+    <ClCompile Include="CDarkUI.cpp">
+      <Filter>Game\05. Object\07. UI\02. Panel\03. DarkFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="CCR.cpp">
+      <Filter>Game\05. Object\17. CopyRight</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
