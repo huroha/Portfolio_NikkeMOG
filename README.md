@@ -98,4 +98,4 @@ Portfolio_MOG/
 ## 개발 일지 Notion Link
 https://decisive-bell-c02.notion.site/SHFITUP-Nikke-MOG-ac979f76ada449ec8287344a2774c9cb?pvs=74
 
-[![게임 시연 영상]](https://youtu.be/xpcwNJXNOjk)
+[[게임 시연 유튜브 링크]](https://youtu.be/xpcwNJXNOjk)
